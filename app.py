@@ -73,3 +73,4 @@ def add_post():
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
 <div class="nav-bar"> <a href="#">Reel</a> <a href="#">Like</a> <a href="#">Profile</a> </div>.
+@app.route('/reel') और उसके नीचे def reel(): फिर return "Reels Page"
